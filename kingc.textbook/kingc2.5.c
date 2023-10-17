@@ -27,7 +27,6 @@ int main(void)
 	weight = (volume + 165) / 166;
 	*/
 
-	int height = 8, length = 12, width =10, volume = height * length * width, weight = (volume + 165) / 166;
-	printf("Height: %d\nLength: %d\nWidth: %d\nVolume: %d\nWeight: %d\n", height, length, width, volume, weight);
+	int height = 8, length = 12, width =10, volume = height * length * width, weight = (volume + 165) / 166; printf("Height: %d\nLength: %d\nWidth: %d\nVolume: %d\nWeight: %d\n", height, length, width, volume, weight);
 	
 }
