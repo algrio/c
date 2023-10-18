@@ -34,6 +34,8 @@ int main(void)
 	//scanf("%f", &i);
 	//printf("%f\n", i+1);
 
+	/*
+	#define INCHES_PER_POUND 166
 	int height, length, width;
 
 	printf("enter height : ");
@@ -44,7 +46,9 @@ int main(void)
 	scanf("%d", &width);
 
 	printf("volume : %d\n", height * length * width);
-	printf("dims : %d\n", (height * length * width) / 139);
+	printf("dims : %d\n", ((height * length * width) + 165) / INCHES_PER_POUND);
+	*/
 
+	
 	return 0;
 }
