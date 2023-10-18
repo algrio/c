@@ -49,6 +49,17 @@ int main(void)
 	printf("dims : %d\n", ((height * length * width) + 165) / INCHES_PER_POUND);
 	*/
 
+	#define FREEZING_POINT 32.0f
+	#define SCALE_FACTOR (5.0f / 9.0f)
+
+	float fahrenheit, celsius;
+
+	printf ("enter fahrenheit : ");
+	scanf("%f", &fahrenheit);
+
+	celsius = (fahrenheit - FREEZING_POINT) * SCALE_FACTOR;
+
+	printf("celsius equivalent : %.1f\n", celsius);
 	
 	return 0;
 }
