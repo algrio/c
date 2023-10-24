@@ -1,4 +1,4 @@
-#include </Users/g/Desktop/code/c/glfw.test/include/GLFW/glfw3.h>
+#include "include/GLFW/glfw3.h"
 
 int main(void)
 {
