@@ -15,8 +15,8 @@ printf("True\n"); */
 /* if (y != x)
 printf("True\n"); */
 
-if (!x && !y)
-printf("True\n");
+/* if (!x && !y)
+printf("True\n"); */
 
 
 
