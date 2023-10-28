@@ -1,4 +1,4 @@
-APP_NAME = test.out
+APP_NAME = a.out
 BUILD_DIR = .
 C_FILES = test.c
 
