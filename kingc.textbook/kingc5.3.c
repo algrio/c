@@ -3,8 +3,15 @@
 
 int main(void)
 {
-bool x;
-switch(x)
-break;
+bool x = 100;
+
+while (x != 0)
+    {
+    if (x > 0)
+    {printf("True %d", x); --x;}
+    else if (x < 0) 
+    {printf("True %d", x); ++x;}
+    }
+
 return 0; 
 }
