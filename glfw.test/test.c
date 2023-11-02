@@ -25,6 +25,13 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
+        glBegin(GL_TRIANGLES);
+        glVertex2f(-0.9f,-0.9f);
+        glVertex2f(0.0f,0.9f);
+        glVertex2f(0.9f,-0.9f);
+
+        glEnd();
+
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
 
