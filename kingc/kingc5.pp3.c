@@ -3,10 +3,13 @@
 
 int main(void)
 {
-float trade, commission;
+float trade, commission, price, quantity, rival;
 
-printf("Enter Trade Value : USD ");
-scanf("%f", &trade);
+printf("Enter Trade Price : USD ");
+scanf("%f", &price);
+printf("Enter Trade Quantity : ");
+scanf("%f", &quantity);
+trade = price * quantity;
 
 if (trade < 2500)
     commission = 30 + .017 * trade;
@@ -25,6 +28,12 @@ if (commission < 39.0f)
     commission = 39.f;
 
 printf("Commission : USD %.2f\n", commission); 
+
+if (quantity < 2000)
+    rival = 33 + .03 * quantity;
+else rival = 33 + .02 * quantity;
+
+printf("Rival Commission : USD %.2f\n", rival); 
 
 return 0; 
 }
