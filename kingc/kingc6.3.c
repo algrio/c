@@ -3,7 +3,13 @@
 
 int main(void)
 {
-for(int x = 1000000; x >= 0; x--)
-    printf("%7d\n", x);
+int n, i;
+
+printf("This program prints a table of squares.\nEnter The number of entries : ");
+scanf("%d", &n);
+
+for (i = 1; i <= n; ++i)
+    printf("%3d %3d\n", i, i*i);
+
 return 0;
 }
